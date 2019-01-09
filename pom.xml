@@ -61,15 +61,10 @@
         <configuration>
 		<webResources>
 		<resource>
-		<directory>webapp</directory>
+		<directory>src</directory>
 		 <includes>
-                <include>**/*.jpg</include>
-                <include>**/*.jsp</include>
-		<include>**/*.html</include>	 
-	        <include>**/*.xml</include>
-	        <include>**/*.js</include>
-		</includes>	
-		</resource>
+                <include>**/*.*</include>
+                </resource>
 		</webResources>
          <warSourceDirectory>WebContent</warSourceDirectory>
 	</configuration>
