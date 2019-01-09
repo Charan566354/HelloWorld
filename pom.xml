@@ -64,6 +64,7 @@
 		<directory>src</directory>
 		 <includes>
                 <include>**/*.*</include>
+		</includes>	 
                 </resource>
 		</webResources>
          <warSourceDirectory>WebContent</warSourceDirectory>
