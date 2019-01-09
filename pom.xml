@@ -59,9 +59,20 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.0.0</version>
         <configuration>
+		<webResources>
+		<resource>
+		<directory>WebContent</directory>
+		 <includes>
+                <include>**/*.jpg</include>
+                <include>**/*.jsp</include>
+		<include>**/*.html</include>	 
+	        <include>**/*.xml</include>
+	        <include>**/*.js</include>
+		</includes>	
+		</resource>
+		</webResources>
          <warSourceDirectory>WebContent</warSourceDirectory>
-		<failOnMissingWebXml>false</failOnMissingWebXml>
-        </configuration>
+	</configuration>
       </plugin>
     </plugins>
 	</build>
