@@ -61,7 +61,7 @@
         <configuration>
 		<webResources>
 		<resource>
-		<directory>WebContent</directory>
+		<directory>webapp</directory>
 		 <includes>
                 <include>**/*.jpg</include>
                 <include>**/*.jsp</include>
